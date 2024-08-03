@@ -1,0 +1,47 @@
+# Node modules
+backend/node_modules/
+frontend/node_modules/
+
+# Build output
+backend/build/
+backend/dist/
+frontend/build/
+frontend/dist/
+
+# Log files
+*.log
+
+# Environment variables
+backend/.env
+frontend/.env
+
+# npm package lock file (optional, but often included)
+backend/package-lock.json
+frontend/package-lock.json
+
+# Yarn lock file (if using Yarn)
+backend/yarn.lock
+frontend/yarn.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Coverage directory used by tools like istanbul
+backend/coverage/
+frontend/coverage/
+
+# Next.js build output (if applicable)
+frontend/.next/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Miscellaneous
+*.pid
+*.swo
